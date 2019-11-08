@@ -1,0 +1,24 @@
+{
+	"name": "Gunship Factory",
+	"description": "Produces gunship units",
+	"type": "UnitFactory",
+	"unitType": "gunship",
+	"size": 3,
+	"maxSpawn":6,
+	"produceTime": 200,
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 20},
+				{"item": "lead", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 100 }
+	]
+}

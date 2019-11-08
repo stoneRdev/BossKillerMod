@@ -1,0 +1,19 @@
+{
+	"type": "flyingUnit",
+	"name": "gunship",
+	"description": "Powerful support gunship, sporting a miniature gatling cannon",
+	"speed": 0.5,
+	"drag": 0.01,
+	"flying": true,
+	"health": 750,
+	"engineOffset": 0.5,
+	"range": 100,
+	"weapon": {
+		"name": "gatling",
+		"length": 0.5,
+		"reload": 2,
+		"alternate": true,
+		"ejectEffect": "shellEjectSmall",
+		"bullet": "standardHoming"
+	}
+}
