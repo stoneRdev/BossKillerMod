@@ -19,7 +19,7 @@
 		"copper": {
 			"speed": 4.0,
 			"damage": 80.0,
-			"lifetime": 100.0,
+			"lifetime": 150.0,
 			"knockback": 1.0,
 			"hitEffect": "flakExplosion",
 			"collidesTiles": false,
@@ -38,7 +38,7 @@
 		"lead": {
 			"speed": 8.0,
 			"damage": 160.0,
-			"lifetime": 160.0,
+			"lifetime": 200.0,
 			"knockback": 1.5,
 			"hitEffect": "flakExplosion",
 			"collidesTiles": false,
